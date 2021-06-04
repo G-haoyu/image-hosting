@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="194px" preserveAspectRatio="none" style="width:446px;height:194px;" version="1.1" viewBox="0 0 446 194" width="446px" zoomAndPan="magnify"><defs><filter height="300%" id="fll8c3xira14w" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--entity 编目部--><ellipse cx="72.5" cy="18" fill="#FEFECE" filter="url(#fll8c3xira14w)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><path d="M72.5,26 L72.5,53 M59.5,34 L85.5,34 M72.5,53 L59.5,68 M72.5,53 L85.5,68 " fill="none" filter="url(#fll8c3xira14w)" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="42" x="51.5" y="87.9951">编目部</text><ellipse cx="72.7254" cy="167.7451" fill="#FEFECE" filter="url(#fll8c3xira14w)" rx="66.7254" ry="15.7451" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="98" x="23.7254" y="172.3935">登录校书籍系统</text><ellipse cx="190.5143" cy="49.7029" fill="#FEFECE" filter="url(#fll8c3xira14w)" rx="61.5143" ry="14.7029" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="84" x="148.5143" y="54.3513">书籍信息录入</text><ellipse cx="392.598" cy="49.5236" fill="#FEFECE" filter="url(#fll8c3xira14w)" rx="42.598" ry="14.5236" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="56" x="364.598" y="54.1721">书籍编号</text><!--link 编目部 to 登录校书籍系统--><path d="M72.5,91.0712 C72.5,109.8078 72.5,131.2195 72.5,146.4312 " fill="none" id="编目部-登录校书籍系统" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="72.5,151.7386,76.5,142.7386,72.5,146.7386,68.5,142.7386,72.5,151.7386" style="stroke: #A80036; stroke-width: 1.0;"/><!--link 编目部 to 书籍信息录入--><path d="M93.7031,49.5 C103.6847,49.5 113.666,49.5 123.648,49.5 " fill="none" id="编目部-书籍信息录入" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="128.868,49.5,119.868,45.5,123.868,49.5,119.868,53.5,128.868,49.5" style="stroke: #A80036; stroke-width: 1.0;"/><!--link 书籍信息录入 to 书籍编号--><path d="M252.204,49.5 C281.914,49.5 316.998,49.5 344.649,49.5 " fill="none" id="书籍信息录入-书籍编号" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><polygon fill="#A80036" points="349.723,49.5,340.723,45.5,344.723,49.5,340.723,53.5,349.723,49.5" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="61" x="270.5" y="42.5669">«include»</text><!--
+@startuml
+actor 编目部
+
+编目部 - -> (登录校书籍系统)
+编目部 -right-> (书籍信息录入)
+(书籍信息录入) .right.> (书籍编号):<<include>>
+@enduml
+
+PlantUML version 1.2019.01(Sat Feb 09 15:32:04 UTC 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 1.8.0_181-8u181-b13-2~deb9u1-b13
+Operating System: Linux
+OS Version: 3.10.0-957.5.1.el7.x86_64
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
