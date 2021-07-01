@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="283px" preserveAspectRatio="none" style="width:321px;height:283px;" version="1.1" viewBox="0 0 321 283" width="321px" zoomAndPan="magnify"><defs><filter height="300%" id="fxbwaxu6wf5bl" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--entity 系统管理员--><ellipse cx="73" cy="110" fill="#FEFECE" filter="url(#fxbwaxu6wf5bl)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><path d="M73,118 L73,145 M60,126 L86,126 M73,145 L60,160 M73,145 L86,160 " fill="none" filter="url(#fxbwaxu6wf5bl)" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="38" y="179.9951">系统管理员</text><ellipse cx="73.1107" cy="23.8221" fill="#FEFECE" filter="url(#fxbwaxu6wf5bl)" rx="67.1107" ry="15.8221" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="99" x="23.6107" y="28.4706">登录XBB聊天室</text><ellipse cx="226.9934" cy="141.6987" fill="#FEFECE" filter="url(#fxbwaxu6wf5bl)" rx="83.9934" ry="19.1987" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="140" x="156.9934" y="146.3471">查看当前在线用户列表</text><ellipse cx="73.0143" cy="257.7029" fill="#FEFECE" filter="url(#fxbwaxu6wf5bl)" rx="61.5143" ry="14.7029" style="stroke: #A80036; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="84" x="31.0143" y="262.3513">发送系统消息</text><!--link 登录XBB聊天室 to 系统管理员--><path d="M73,45.355 C73,60.392 73,81.363 73,99.792 " fill="none" id="登录XBB聊天室-系统管理员" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="73,40.1,69,49.1,73,45.1,77,49.1,73,40.1" style="stroke: #A80036; stroke-width: 1.0;"/><!--link 系统管理员 to 查看当前在线用户列表--><path d="M108.191,141.5 C118.072,141.5 127.952,141.5 137.832,141.5 " fill="none" id="系统管理员-查看当前在线用户列表" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="142.999,141.5,133.999,137.5,137.999,141.5,133.999,145.5,142.999,141.5" style="stroke: #A80036; stroke-width: 1.0;"/><!--link 系统管理员 to 发送系统消息--><path d="M73,183.0131 C73,201.7085 73,222.9929 73,237.8259 " fill="none" id="系统管理员-发送系统消息" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="73,242.9821,77,233.9821,73,237.9821,69,233.9821,73,242.9821" style="stroke: #A80036; stroke-width: 1.0;"/><!--
+@startuml
+actor 系统管理员
+
+系统管理员 -up-> (登录XBB聊天室)
+系统管理员 -right-> (查看当前在线用户列表)
+系统管理员 -down-> (发送系统消息)
+@enduml
+
+PlantUML version 1.2019.01(Sat Feb 09 15:32:04 UTC 2019)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 1.8.0_181-8u181-b13-2~deb9u1-b13
+Operating System: Linux
+OS Version: 3.10.0-957.5.1.el7.x86_64
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
